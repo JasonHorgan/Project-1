@@ -33,8 +33,17 @@ header{
     box-shadow: 0 2px 2px white;
 }
 
+header a {
+    text-decoration: none;
+    color:inherit;
+}
+
 h1{
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #FDF0D5;
+    
 }
 
 /* Main Content */
