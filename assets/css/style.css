@@ -103,9 +103,18 @@ main{
 
 /* Footer */
 
-footer{
-    background-color: #780000;
-    color: whitesmoke;
+#social-networks{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding:5%;
+    color:#780000
 }
 
 /* Media query tablets and larger (768px and up) */
