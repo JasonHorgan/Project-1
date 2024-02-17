@@ -28,6 +28,10 @@ header{
     color: whitesmoke;
 }
 
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Main Content */
 
 main{
