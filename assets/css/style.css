@@ -89,6 +89,46 @@ nav{
     font-size: 2rem;
 }
 
+/* Hero Image */
+
+.hero_inner{
+    font-size: 50px;
+    margin-top: 75px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#780000;
+}
+
+.hero_inner h3{
+
+    color: #FDF0D5;
+}
+
+.hero_image{
+
+    
+    background-image: url(../css/images/phil_hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:100px;
+    height: 100vh;
+    width:100%;
+    background-position: center center;
+	background-repeat: no-repeat;
+   
+
+
+}
+
+
+
 
 /* Main Content */
 
