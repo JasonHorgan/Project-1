@@ -150,7 +150,7 @@ main{
 
 .wrapper{
     margin: 150px auto;
-    width: 70%;
+    width: 85%;
 }
 
 .text-box{
@@ -171,11 +171,50 @@ main{
 
 .wrapper2{
     margin: 150px auto;
-    width: 70%;
+    width: 85%;
+}
+
+.boys{
+    
+    border:solid 3px #780000;
+    border-radius:10px;
+    width:560px;
+    height:315px;
+    margin-right:25px;
+}
+
+.wrapper3{
+    margin: 150px auto;
+    width: 85%;
+    display:flex;
+    justify-content: center;
+}
+
+.text-box-3{
+    font-family: 'merriweather';
 }
 
 
+.old-town{
+    
+    border:solid 3px #780000;
+    border-radius:10px;
+    width:560px;
+    height:315px;
+    margin-left:25px;
+}
 
+.wrapper4{
+    margin: 150px auto;
+    width: 85%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.text-box-4{
+    font-family: 'merriweather';
+}
 
 
 /* Footer */
