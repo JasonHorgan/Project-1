@@ -137,28 +137,41 @@ main{
     margin-top: 80px;
 }
 
-.img{
-    width: 100px;
-    height: 100px;
-}
-
-.paragraph1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap:wrap;
-    flex-direction: row;    
-}
-
-.paragraph2{
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+.phil-bass{
+    max-width: 500px;
+    max-height: 500px;
+    float:left;
+    border:solid 3px #780000;
+    border-radius: 10px;
+    margin-right: 150px;
     
 
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box{
+    font-family: 'merriweather';
+}
+
+
+
+.phil-guinness{
+    max-width: 500px;
+    max-height: 400px;
+    float:right;
+    border:solid 3px #780000;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.wrapper2{
+    margin: 150px auto;
+    width: 70%;
 }
 
 
