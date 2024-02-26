@@ -139,22 +139,27 @@ main {
     
 }
 
-#video1{
+#end{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     margin-top:15px;
     font-family:'Merriweather', sans-serif;
     margin: 20px 10px 20px 10px;
+
 }
 
-.boys{
-    width: 250px;
-    height:250px;
+.phil_bw{
+    max-width: 100%;
+    max-height: 500px;
     border:solid 3px #780000;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
     
 }
+
+
+
 
 /* Hero Image */
 
