@@ -107,7 +107,7 @@ main {
     justify-content: center;
     margin-top:15px;
     font-family:'Merriweather', sans-serif;
-    margin: 10px 5px 10px 5px;
+    margin: 20px 10px 20px 10px;
 
 }
 
@@ -116,7 +116,7 @@ main {
     max-height: 500px;
     border:solid 3px #780000;
     border-radius: 10px;
-    margin: 10px 5px 10px 5px;
+    margin: 20px 10px 20px 10px;
     
 }
 
@@ -126,7 +126,7 @@ main {
     justify-content: center;
     margin-top:15px;
     font-family:'Merriweather', sans-serif;
-    margin: 10px 5px 10px 5px;
+    margin: 20px 10px 20px 10px;
 
 }
 
@@ -135,7 +135,24 @@ main {
     max-height: 500px;
     border:solid 3px #780000;
     border-radius: 10px;
-    margin: 10px 5px 10px 5px;
+    margin: 20px 10px 20px 10px;
+    
+}
+
+#video1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:15px;
+    font-family:'Merriweather', sans-serif;
+    margin: 20px 10px 20px 10px;
+}
+
+.boys{
+    width: 250px;
+    height:250px;
+    border:solid 3px #780000;
+    border-radius: 5px;
     
 }
 
