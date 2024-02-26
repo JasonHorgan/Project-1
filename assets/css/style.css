@@ -1,284 +1,234 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by web browser */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General Style rules */
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Merriweather', sans-serif;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Merriweather", sans-serif;
 }
 
-h1, h2, h3{
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #FDF0D5;
-    
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fdf0d5;
 }
-    /* General project styles */
-
-
+/* General project styles */
 
 /* Header */
 
-header{
-    background-color: black;
-    color: whitesmoke;
-    padding:0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 1px 1px white;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+header {
+  background-color: black;
+  color: whitesmoke;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 1px 1px white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
-    text-decoration: none;
-    color:inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
-
-
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
 
 #menu > li {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-.active{
-    border-bottom: 1px solid white;
+.active {
+  border-bottom: 1px solid white;
 }
 
 /* Nav bar styles with drop down toggle */
 
-nav{
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    left:0;
-    padding:0 1rem;
-    box-shadow: 0 2px 2px black;
-    display: none;
-    top:100%;
+nav {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px black;
+  display: none;
+  top: 100%;
 }
 
 /* Nav Toggle */
-#nav-toggle:checked~nav{
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
-#nav-toggle{
-    display: none;
+#nav-toggle {
+  display: none;
 }
 
-.nav-toggle-label{
-    font-size: 2rem;
+.nav-toggle-label {
+  font-size: 2rem;
 }
 
 /* Main Content */
 
 main {
-    background-color: #FDF0D5;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
+  background-color: #fdf0d5;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  margin-top: 47px;
 }
 
-#intro{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top:15px;
-    font-family:'Merriweather', sans-serif;
-    margin: 20px 10px 20px 10px;
-
+#intro {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: "Merriweather", sans-serif;
+  margin: 20px 10px 20px 10px;
 }
 
-.phil-bass{
-    max-width: 100%;
-    max-height: 500px;
-    border:solid 3px #780000;
-    border-radius: 10px;
-    margin: 20px 10px 20px 10px;
-    
+.phil {
+  max-width: 100%;
+  max-height: 500px;
+  border: solid 3px #780000;
+  border-radius: 10px;
+  margin: 20px 10px 20px 10px;
 }
 
-#middle{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top:15px;
-    font-family:'Merriweather', sans-serif;
-    margin: 20px 10px 20px 10px;
-
+#middle {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: "Merriweather", sans-serif;
+  margin: 20px 10px 20px 10px;
 }
 
-.guinness{
-    max-width: 100%;
-    max-height: 500px;
-    border:solid 3px #780000;
-    border-radius: 10px;
-    margin: 20px 10px 20px 10px;
-    
+#end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: "Merriweather", sans-serif;
+  margin: 20px 10px 20px 10px;
 }
-
-#end{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top:15px;
-    font-family:'Merriweather', sans-serif;
-    margin: 20px 10px 20px 10px;
-
-}
-
-.phil_bw{
-    max-width: 100%;
-    max-height: 500px;
-    border:solid 3px #780000;
-    border-radius: 10px;
-    margin: 20px 10px 20px 10px;
-    
-}
-
-.phil_bar{
-    max-width: 100%;
-    max-height: 500px;
-    border:solid 3px #780000;
-    border-radius: 10px;
-    margin: 20px 10px 20px 10px;
-}
-
-
-
 
 /* Hero Image */
 
-#hero{
-    height:600px;
-    width:100%;
-    background:url("images/phil_hero.jpeg") no-repeat center center/cover;
-    
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("images/phil_hero.jpeg") no-repeat center center/cover;
 }
 
-#hero-text{
-    color:#FDF0D5;
-    font-size:130%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 250px;
-
+#hero-text {
+  color: #fdf0d5;
+  font-size: 130%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 250px;
 }
 
-.hero-text h2{
-    font-size:5em;
-    text-shadow: 3px 3px black;
+.hero-text h2 {
+  font-size: 5em;
+  text-shadow: 3px 3px black;
 }
-
 
 /* Footer */
 
-#social-networks{
-    background-color: #FDF0D5;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+#social-networks {
+  background-color: #fdf0d5;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding:5%;
-    color:#780000
+  font-size: 160%;
+  padding: 5%;
+  color: #780000;
 }
 
 /* Media query tablets and larger (768px and up) */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    /* Header */
-    nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+  #menu {
+    display: flex;
+  }
 
-    }
+  #menu > li {
+    padding-left: 1rem;
+  }
 
-    #menu{
-        display: flex;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #menu > li {
-
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label{
-        display: none;
-    }
-
-#logo{
+  #logo {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
-}
+  }
 
-    /* Main content */
+  /* Main content */
 
+  /* Hero */
 
-    /* Hero */
+  #hero-text {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    #hero-text{
-        max-width: 100%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+  .hero-text h2 {
+    font-size: 5.5em;
+    text-shadow: 4px 4px #3a3a3a;
+  }
+
+  .hero-text h3 {
+    font-size: 1.5em;
+    text-shadow: 2px 2px #3a3a3a;
+  }
+
+  /* Large devices (laptops and desktops 992px and up) */
+
+  @media screen and (min-width: 992px) {
+    #menu a:hover {
+      border-bottom: 1px solid #fdf0d5;
     }
-
-    .hero-text h2 {
-        font-size: 5.5em;
-        text-shadow: 4px 4px #3a3a3a;
-    }
-    
-    .hero-text h3 {
-        font-size: 1.5em;
-        text-shadow: 2px 2px #3a3a3a;
-
-
-}
-
-/* Large devices (laptops and desktops 992px and up) */
-
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #FDF0D5;
-    }
-}
-  
-    
-    
-    
+  }
 }
