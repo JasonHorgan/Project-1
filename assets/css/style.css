@@ -213,6 +213,51 @@ p{
 
   /* Main content */
 
+  #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 20px 10px 20px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 20px 10px 20px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #bw{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 20px 10px 20px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.5px;
+    margin: 20px 10px 20px 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+  }
+
   /* Hero */
 
   #hero-text {
@@ -275,7 +320,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
   }
-  }
+  
   
 
   .phil{
@@ -314,4 +359,4 @@ p{
     align-items: center;
 }
 
-}
+  }
