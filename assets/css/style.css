@@ -163,6 +163,17 @@ p{
   text-shadow: 3px 3px black;
 }
 
+/* Gallery CSS */
+
+#gallery img {
+  width:100%;
+  line-height: 1em;
+}
+
+#photos{
+  line-height: 0;
+}
+
 
 /* Footer */
 
