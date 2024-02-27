@@ -135,9 +135,9 @@ main {
   margin: 20px 10px 20px 10px;
 }
 
-p{
-    margin-left: 20px;
-    margin-right: 20px;
+p {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Hero Image */
@@ -166,19 +166,18 @@ p{
 /* Gallery CSS */
 
 #gallery img {
-  width:100%;
+  width: 100%;
   line-height: 1em;
 }
 
-#photos{
+#photos {
   line-height: 0;
 }
 
-#videos{
+#videos {
   width: 100%;
   overflow: hidden;
 }
-
 
 /* Footer */
 
@@ -251,7 +250,7 @@ p{
     align-items: center;
   }
 
-  #bw{
+  #bw {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -260,9 +259,9 @@ p{
     margin: 20px 10px 20px 10px;
     flex-wrap: nowrap;
     align-items: center;
-}
+  }
 
-#bar{
+  #bar {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -271,54 +270,52 @@ p{
     margin: 20px 10px 20px 10px;
     flex-wrap: nowrap;
     align-items: center;
+  }
 }
+
+/* Hero */
+
+#hero-text {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 5.5em;
+  text-shadow: 4px 4px #3a3a3a;
+}
+
+.hero-text h3 {
+  font-size: 1.5em;
+  text-shadow: 2px 2px #3a3a3a;
+}
+
+/* Gallery */
+
+#photos {
+  display: flex;
+  flex-direction: column;
+}
+
+#videos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Large devices (laptops and desktops 992px and up) */
+
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #fdf0d5;
   }
 
-  /* Hero */
+  /* Main Content */
 
-  #hero-text {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero-text h2 {
-    font-size: 5.5em;
-    text-shadow: 4px 4px #3a3a3a;
-  }
-
-  .hero-text h3 {
-    font-size: 1.5em;
-    text-shadow: 2px 2px #3a3a3a;
-  }
-
-    /* Gallery */
-
-    #photos{
-      display: flex;
-      flex-direction: column;
-    }
-
-    #videos{
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-  
-
-  /* Large devices (laptops and desktops 992px and up) */
-
-  @media screen and (min-width: 992px) {
-    #menu a:hover {
-      border-bottom: 1px solid #fdf0d5;
-    }
-  
-
-/* Main Content */
-
-#intro {
+  #intro {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -329,7 +326,7 @@ p{
     align-items: center;
   }
 
-  #middle{
+  #middle {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -340,7 +337,7 @@ p{
     align-items: center;
   }
 
-  #end{
+  #end {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -350,24 +347,21 @@ p{
     flex-wrap: nowrap;
     align-items: center;
   }
-  
-  
 
-  .phil{
+  .phil {
     max-width: 50%;
-    
   }
 
-#end{
+  #end {
     display: flex;
     font-family: "Raleway", sans-serif;
     letter-spacing: 1.5px;
     margin: 20px 10px 20px 10px;
     flex-direction: column-reverse;
     align-items: center;
-}
+  }
 
-#bw{
+  #bw {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -376,9 +370,9 @@ p{
     margin: 20px 10px 20px 10px;
     flex-wrap: nowrap;
     align-items: center;
-}
+  }
 
-#bar{
+  #bar {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -387,16 +381,15 @@ p{
     margin: 20px 10px 20px 10px;
     flex-wrap: nowrap;
     align-items: center;
-}
-
-#photos{
-  display: flex;
-  flex-direction: column;
-  width:100%;
-}
-
-#videos-iframe{
-  aspect-ratio: 16/9;
-}
-
   }
+
+  #photos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #videos-iframe {
+    aspect-ratio: 16/9;
+  }
+}
