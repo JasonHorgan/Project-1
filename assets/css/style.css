@@ -294,6 +294,20 @@ p{
     text-shadow: 2px 2px #3a3a3a;
   }
 
+    /* Gallery */
+
+    #photos{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #videos{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+
   /* Large devices (laptops and desktops 992px and up) */
 
   @media screen and (min-width: 992px) {
@@ -373,6 +387,16 @@ p{
     margin: 20px 10px 20px 10px;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+#photos{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+#videos-iframe{
+  aspect-ratio: 16/9;
 }
 
   }
