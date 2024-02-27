@@ -306,6 +306,10 @@ p {
   height: 100%;
 }
 
+#videos-iframe {
+  aspect-ratio: 16/9;
+}
+
 /* Large devices (laptops and desktops 992px and up) */
 
 @media screen and (min-width: 992px) {
@@ -382,6 +386,8 @@ p {
     flex-wrap: nowrap;
     align-items: center;
   }
+
+  /* Gallery */
 
   #photos {
     display: flex;
