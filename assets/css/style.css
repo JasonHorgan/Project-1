@@ -352,6 +352,12 @@ h4 {
   aspect-ratio: 16/9;
 }
 
+/* submit page */
+
+#story{
+  padding-top: 125px;
+}
+
 /* Large devices (laptops and desktops 992px and up) */
 
 @media screen and (min-width: 992px) {
