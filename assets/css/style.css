@@ -175,8 +175,10 @@ p {
 }
 
 #videos {
+  display: block;
   width: 100%;
   overflow: hidden;
+  padding-top: 22px;
 }
 
 /* Submit page styles */
@@ -346,6 +348,7 @@ h4 {
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding:30px
 }
 
 #videos-iframe {
@@ -445,6 +448,13 @@ h4 {
   }
 
   /* Video page */
+
+  #videos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding:100px;
+  }
 
   #videos-iframe {
     aspect-ratio: 16/9;
