@@ -392,17 +392,6 @@ h4 {
     align-items: center;
   }
 
-  #end {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 1.5px;
-    margin: 20px 10px 20px 10px;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-
   .phil {
     max-width: 50%;
   }
