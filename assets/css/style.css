@@ -116,7 +116,7 @@ main {
 
 #middle {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   margin-top: 15px;
   font-family: "Raleway", sans-serif;
@@ -173,11 +173,17 @@ p {
   line-height: 0;
 }
 
+/* Videos page */
+
 #videos {
   display: block;
   width: 100%;
   overflow: hidden;
   padding-top: 22px;
+}
+
+#videos-iframe {
+  margin:5px;
 }
 
 /* Submit page styles */
