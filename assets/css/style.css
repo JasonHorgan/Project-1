@@ -135,6 +135,8 @@ main {
 }
 
 p {
+  font-family: "Merriweather", sans-serif;
+  letter-spacing: 1.5px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -223,6 +225,7 @@ input[type="submit"] {
 }
 
 h4 {
+  font-family: "Merriweather", sans-serif;
   color: #3a3a3a;
   text-align: center;
   padding-top: 5px;
@@ -459,7 +462,7 @@ h4 {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding:25px 450px;
+    padding:50px 450px;
     
   }
 
