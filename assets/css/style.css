@@ -232,6 +232,11 @@ h4 {
   padding-bottom: 5px;
 }
 
+#submit_image{
+  width:100%;
+  padding-top: 20px;
+}
+
 /* Footer */
 
 #social-networks {
@@ -324,7 +329,7 @@ h4 {
     flex-wrap: nowrap;
     align-items: center;
   }
-}
+
 
 /* Hero */
 
@@ -367,9 +372,11 @@ h4 {
 /* submit page */
 
 #story{
-  padding-top: 125px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-
+}
 /* Large devices (laptops and desktops 992px and up) */
 
 @media screen and (min-width: 992px) {
@@ -475,4 +482,11 @@ h4 {
 #story{
   padding: 30px;
 }
+
+#submit_image{
+  width:100%;
+  padding-top: 20px;
+  max-height: 65vh;
+}
+
 }
