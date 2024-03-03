@@ -24,14 +24,14 @@ h3 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #fdf0d5;
+  color: #FFFAE0;
 }
 /* General project styles */
 
 /* Header */
 
 header {
-  background-color: black;
+  background-color: #400808;
   color: whitesmoke;
   padding: 0 1rem;
   position: fixed;
@@ -52,6 +52,7 @@ header a {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
+  color:#FFFAE0;
 }
 
 #menu > li {
@@ -66,7 +67,7 @@ header a {
 
 nav {
   position: absolute;
-  background-color: black;
+  background-color: #400808;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -91,7 +92,7 @@ nav {
 /* Main Content */
 
 main {
-  background-color: #fdf0d5;
+  background-color: #FFFAE0;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
@@ -139,6 +140,7 @@ p {
   letter-spacing: 1.5px;
   margin-left: 20px;
   margin-right: 20px;
+  color:#400808;
 }
 
 /* Hero Image */
