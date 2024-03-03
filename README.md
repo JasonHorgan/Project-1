@@ -82,30 +82,25 @@ The website is comprised of four pages, three of which are accessible from the n
 
 All Pages on the website have:
 
-- A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of book clubs logo together with the text Bully Book Club. To the right of the navigation bar are the links to the websites pages (home, books, and contact us). To allow a good user experience of the site, the Bully Book Club text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+- A responsive navigation bar at the top which allows the user to navigate through the site. The Nav bar contains links to the home page, gallery, video section and the submit section. When viewing with mobile devices the navigation links change to a burger toggler. This is typically seen on mobile sites and makes for a better user experience. 
 
-A footer which contains social media icon links to instagram and goodreads. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+A footer which contains social media icon links to instagram, Facebook, X and Youtube. I used icons to identify the websites and when the user clicks on them, they are taken to a new tab so they do not lose my site. 
 
-Home Page.
+### Home Page.
 
-Carousel Section. The carousel shows photographs of the members of Bully Book Club.
+The home page is the main page of the site at the moment. This is where the user will find a lot of information and read other user stories about who Phil Lynott was, as well as other interesting facts about him. There are also a number of photographs with alt text included for accesibility.
 
-About Us Section. 
+### Gallery 
 
-This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
+The gallery features a number of photographs of Phil Lynott over the course of his life.
 
-Join Us Section.
+### Videos
 
- This section gives the user more information on how they can join in with the book club.
-Books Page. The navigation link for books is a drop down menu with the following sections:
+The video section contains music videos of Phil Lynotts most popular songs, as well as interviews about him to give the user more context of who he was as a person. 
 
-Currently Reading. This takes the user to the card of the book the book club is currently reading.
+### Submit
 
-Reading Next. This takes the user to the card of the book the book club will be reading next.
+The submit section of the website contains a form where users can submit stories detailing interactions regular people had with Phil over the course of his life so these stories are not lost over time. 
 
 Yearly Sections. This takes the user to the section of the year they have chosen. There are currently 3 years to select from. The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
 
-Contact Us Page.
-
-A List of reasons users may want to contact the book club.
-Form The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
