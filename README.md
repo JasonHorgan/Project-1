@@ -56,7 +56,7 @@ For my first project Portfolio I have created an online Archive highlighting the
 
 ### Color Scheme 
 
-!(assets/css/images/phil_color_scheme.jpeg)
+<img src="/assets/css/images/phil_color_scheme.jpeg"/>
 
 The Website uses a Color Palette of reds and blues which are colors that Phil often wore and there are photos of him wearing this colors on the site. There are also some pastel colors to make the text look more visually pleasing to the reader.
 
