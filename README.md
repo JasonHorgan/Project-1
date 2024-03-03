@@ -5,7 +5,7 @@ The Phil Lynott archive is a fully responsive site for people to read and submit
 
 ** Site image here **
 
-** Site link here **
+[You can view my website here](https://jasonhorgan.github.io/Project-1/)
 
 ** Shields.io badging here ** 
 
@@ -56,7 +56,7 @@ For my first project Portfolio I have created an online Archive highlighting the
 
 ### Color Scheme 
 
-* Insert Image of Color Palette here *
+!(assets/css/images/phil_color_scheme.jpeg)
 
 The Website uses a Color Palette of reds and blues which are colors that Phil often wore and there are photos of him wearing this colors on the site. There are also some pastel colors to make the text look more visually pleasing to the reader.
 
@@ -102,5 +102,5 @@ The video section contains music videos of Phil Lynotts most popular songs, as w
 
 The submit section of the website contains a form where users can submit stories detailing interactions regular people had with Phil over the course of his life so these stories are not lost over time. 
 
-Yearly Sections. This takes the user to the section of the year they have chosen. There are currently 3 years to select from. The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
+
 
