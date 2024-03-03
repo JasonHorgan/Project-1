@@ -3,7 +3,7 @@
 
 The Phil Lynott archive is a fully responsive site for people to read and submit stories about Phil's life. 
 
-** Site image here **
+<img src="/assets/css/images/amiresponsive.png">
 
 [You can view my website here](https://jasonhorgan.github.io/Project-1/)
 
@@ -137,7 +137,22 @@ Google Developer Tools - to assist with styling all of the pages on each device 
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
+## Deployment & Local Development
 
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+- Go to the Settings tab of your GitHub repo.
+- On the left-hand sidebar, in the Code and automation section, select Pages.
+- Make sure:
+    Source is set to 'Deploy from Branch'.
+    Main branch is selected.
+    Folder is set to / (root).
+- Under Branch, click Save.
+- Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+- On the right-hand side, in the Environments section, click on 'github-pages'.
+- Click View deployment to see the live site. The URL will look similar to YOUR-USERNAME.github.io/project-name.
 
 
 
