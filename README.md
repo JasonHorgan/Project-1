@@ -154,5 +154,17 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 - On the right-hand side, in the Environments section, click on 'github-pages'.
 - Click View deployment to see the live site. The URL will look similar to YOUR-USERNAME.github.io/project-name.
 
+## Testing
+
+I tested the code all throughout the development of the site using different screen sizes and dev tools was a massive help for this. 
+
+The following issues were raised during my mid project meeting with my mentor:
+
+- About mid way through the project, I realized that I had not styled the page with a mobile first approach and the site was not behaving the way I wanted it to. As a result, I deleted and re-designed the majority of the main content on the index.html file. In doing so, I made a lot of deletions and additions in the one commit, which I now understand is not good practise. This can be seen on commit reference "96f52f5"
+
+- I had issues styling the YouTube videos on the videos.html page, but after a lot of trial, error and googling, I was able to style the videos to be responsive on all device types. 
+
+- The H2 and H3 text on the home page was not readable due to the text colours blending with the background image but this was fixed by adding a contrasting, slightly transparent background colour to make the text more readable. 
+
 
 
