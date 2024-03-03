@@ -378,6 +378,15 @@ h4 {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+#submit_image{
+max-width: 50%;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 120px;
+}
 }
 /* Large devices (laptops and desktops 992px and up) */
 
@@ -482,13 +491,16 @@ h4 {
   /* submit page */
 
 #story{
-  padding: 30px;
+  padding: 30px 50px;
 }
 
 #submit_image{
-  width:100%;
-  padding-top: 20px;
-  max-height: 65vh;
+  max-width: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
 }
 
 }
