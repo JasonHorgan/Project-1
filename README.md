@@ -170,11 +170,11 @@ The following issues were raised during my mid project meeting with my mentor:
 
 I used W3C validator to validate all HTML and CSS code. There was info messages as seen in the screenshots, but no errors are present. 
 
-- [Index Page HTML] ( <img src="assets/css/images/index_w3_validate.png">)
-- [Gallery Page HTML] ( <img src="assets/css/images/gallery_w3_validate.png">)
-- [Video Page HTML]( <img src="assets/css/images/video_w3_validate.png">)
-- [Submit Page HTML]( <img src="assets/css/images/submit_w3_validate.png">)
-- [style.css CSS]( <img src="assets/css/images/style_css_validate.png">)
+- Index Page HTML <img src="/assets/css/images/index_w3_validate.png">
+- Gallery Page HTML  <img src="/assets/css/images/gallery_w3_validate.png">
+- Video Page HTML <img src="/assets/css/images/video_w3_validate.png">
+- Submit Page HTML <img src="/assets/css/images/submit_w3_validate.png">
+- style.css CSS <img src="/assets/css/images/style_css_validate.png">
 
 
 
