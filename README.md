@@ -58,7 +58,10 @@ For my first project Portfolio I have created an online Archive highlighting the
 
 <img src="/assets/css/images/phil_color_scheme.jpeg"/>
 
-The Website uses a Color Palette of reds and blues which are colors that Phil often wore and there are photos of him wearing this colors on the site. There are also some pastel colors to make the text look more visually pleasing to the reader.
+
+The Website uses a Color Palette of colors extracted from the hero image which I got from Adobe Color, as seen below. This helped the website maintain consistency throughout. 
+
+<img src="/assets/css/images/adobe_color.png">
 
 ### Typography
 
@@ -101,6 +104,40 @@ The video section contains music videos of Phil Lynotts most popular songs, as w
 ### Submit
 
 The submit section of the website contains a form where users can submit stories detailing interactions regular people had with Phil over the course of his life so these stories are not lost over time. 
+
+### Future Implementations
+
+In the future I would like to implement the ability for users to upload photos and videos to be featured on the site. 
+
+### Accessibility
+
+I have attempted to make the site as user friendly as possible by 
+
+using alt text to describe images, ensuring the text is readable by placing it over contrasting color backgrounds, as seen in the hero image on the home page. 
+
+## Technologies Used
+
+### Languages used 
+
+I used HTML and CSS for this site. 
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - to create wireframes.
+
+Github - To store and deploy the site.
+
+Google Fonts - To import the fonts on the site.
+
+Font Awesome - For all icons on the site such as hamburger icon in the nav bar and the social media icons in the footer.
+
+Google Developer Tools - to assist with styling all of the pages on each device type.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+
 
 
 
