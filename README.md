@@ -93,17 +93,39 @@ A footer which contains social media icon links to instagram, Facebook, X and Yo
 
 The home page is the main page of the site at the moment. This is where the user will find a lot of information and read other user stories about who Phil Lynott was, as well as other interesting facts about him. There are also a number of photographs with alt text included for accesibility.
 
+<img src="/assets/images/home_read.png">
+
 ### Gallery 
 
 The gallery features a number of photographs of Phil Lynott over the course of his life.
 
+I decided not to include any text in this page as I did not want it to take away from the impact of the photos and I feel that a gallery should speak for itself. 
+
+<img src="/assets/images/gallery_read.png">
+
 ### Videos
 
-The video section contains music videos of Phil Lynotts most popular songs, as well as interviews about him to give the user more context of who he was as a person. 
+The video section contains music videos of Phil Lynotts most popular songs, as well as interviews about him to give the user more context of who he was as a person. Again, I decided against using text in this section as I wanted the users to focus on the content of the videos. 
+
+<img src="/assets/images/video_read.png">
 
 ### Submit
 
 The submit section of the website contains a form where users can submit stories detailing interactions regular people had with Phil over the course of his life so these stories are not lost over time. 
+
+<img src="/assets/images/submit_read.png">
+
+### Thank you
+
+I added a thank you html page which will pop up for users when they submit the form on the submit page. This Thank you form is set to automatically close after 10 seconds. 
+
+<img src="/assets/images/thank_read.png">
+
+### 404 
+
+I added a 404 page which will pop up if the user enters the page with an incorrect URL. I included a reference to a thin lizzy song in this, so the user will have a good experience, even when they have a bad one with a broken link. 
+
+<img src="/assets/images/404_read.png">
 
 ### Future Implementations
 
