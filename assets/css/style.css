@@ -22,14 +22,15 @@ h1 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #FFFAE0;
+  color: #fffae0;
 }
 
-h2,h3{
+h2,
+h3 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #FFFAE0;
+  color: #fffae0;
   background-color: #8c39266c;
 }
 /* General project styles */
@@ -58,7 +59,7 @@ header a {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
-  color:#FFFAE0;
+  color: #fffae0;
 }
 
 #menu > li {
@@ -98,7 +99,7 @@ nav {
 /* Main Content */
 
 main {
-  background-color: #FFFAE0;
+  background-color: #fffae0;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
@@ -117,7 +118,7 @@ main {
 .phil {
   max-width: 100%;
   max-height: 500px;
-  border: solid 3px #8C3926;
+  border: solid 3px #8c3926;
   border-radius: 10px;
 }
 
@@ -146,7 +147,7 @@ p {
   letter-spacing: 1.5px;
   margin-left: 25px;
   margin-right: 25px;
-  color:#400808;
+  color: #400808;
   padding-top: 20px;
 }
 
@@ -155,11 +156,12 @@ p {
 #hero {
   height: 600px;
   width: 100%;
-  background: url("https://raw.githubusercontent.com/JasonHorgan/Project-1/main/assets/images/phil_hero.webp") no-repeat center center/cover;
+  background: url("https://raw.githubusercontent.com/JasonHorgan/Project-1/main/assets/images/phil_hero.webp")
+    no-repeat center center/cover;
 }
 
 #hero-text {
-  color: #FFFAE0;
+  color: #fffae0;
   font-size: 130%;
   display: flex;
   flex-direction: column;
@@ -192,11 +194,10 @@ p {
   width: 100%;
   overflow: hidden;
   padding: 12px;
-  
 }
 
 .videos-iframe {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 /* Submit page styles */
@@ -242,15 +243,15 @@ h4 {
   padding-bottom: 5px;
 }
 
-#submit_image{
-  width:100%;
+#submit_image {
+  width: 100%;
   padding-top: 20px;
 }
 
 /* Footer */
 
 #social-networks {
-  background-color: #FFFAE0;
+  background-color: #fffae0;
   text-align: center;
   padding: 20px;
   display: flex;
@@ -261,12 +262,12 @@ h4 {
 #social-networks i {
   font-size: 160%;
   padding: 5%;
-  color: #8C3926;
+  color: #8c3926;
 }
 
 /* 404 styling */
 
-#error_title{
+#error_title {
   font-family: "Merriweather", sans-serif;
   letter-spacing: 1.5px;
   margin-left: 25px;
@@ -275,10 +276,6 @@ h4 {
   padding-top: 50px;
   text-align: center;
 }
-
-
-
-
 
 /* Media query tablets and larger (768px and up) */
 
@@ -356,71 +353,70 @@ h4 {
     align-items: center;
   }
 
+  /* Hero */
 
-/* Hero */
+  #hero-text {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-#hero-text {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  .hero-text h2 {
+    font-size: 5.5em;
+    text-shadow: 4px 4px #3a3a3a;
+  }
 
-.hero-text h2 {
-  font-size: 5.5em;
-  text-shadow: 4px 4px #3a3a3a;
-}
+  .hero-text h3 {
+    font-size: 1.5em;
+    text-shadow: 2px 2px #3a3a3a;
+  }
 
-.hero-text h3 {
-  font-size: 1.5em;
-  text-shadow: 2px 2px #3a3a3a;
-}
+  /* Gallery */
 
-/* Gallery */
+  #photos {
+    display: flex;
+    flex-direction: column;
+  }
 
-#photos {
-  display: flex;
-  flex-direction: column;
-}
+  #videos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 100px 25px;
+  }
 
-#videos {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding:100px 25px;
-}
+  .videos-iframe {
+    aspect-ratio: 16/9;
+  }
 
-.videos-iframe {
-  aspect-ratio: 16/9;
-}
+  /* submit page */
 
-/* submit page */
+  #story {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
-#story{
-  padding-top: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+  #submit_image {
+    max-width: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+  }
 
-#submit_image{
-max-width: 50%;
-align-items: center;
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-top: 120px;
-}
-
-#error_title{
-  padding-top:300px;
-}
+  #error_title {
+    padding-top: 300px;
+  }
 }
 /* Large devices (laptops and desktops 992px and up) */
 
 @media screen and (min-width: 992px) {
   #menu a:hover {
-    border-bottom: 1px solid #FFFAE0;
+    border-bottom: 1px solid #fffae0;
   }
 
   /* Main Content */
@@ -461,7 +457,7 @@ padding-top: 120px;
   .phil {
     max-width: 50%;
     height: 450px;
-    width:590px
+    width: 590px;
   }
 
   #end {
@@ -501,7 +497,6 @@ padding-top: 120px;
     display: flex;
     flex-direction: column;
     margin: 100px;
-
   }
 
   /* Video page */
@@ -512,7 +507,7 @@ padding-top: 120px;
     height: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
   }
 
   .videos-iframe {
@@ -524,54 +519,52 @@ padding-top: 120px;
 
   /* submit page */
 
-#story{
-  padding: 30px 50px;
-}
+  #story {
+    padding: 30px 50px;
+  }
 
-#submit_image{
-  max-width: 50%;
-	align-items: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-}
-
+  #submit_image {
+    max-width: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+  }
 }
 
 /* Media Queries for XL screens */
 
 @media screen and (min-width: 1800px) {
   #menu a:hover {
-    border-bottom: 1px solid #FFFAE0;
+    border-bottom: 1px solid #fffae0;
   }
 
-    /* Video page */
+  /* Video page */
 
-    #videos {
-      display: flex;
-      flex-direction: row;
-      height: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap:30px;
-    }
-  
-    .videos-iframe {
-      aspect-ratio: 16/9;
-      height: 400px;
-      width: 600px;
-      border-radius: 10px;
-    }
+  #videos {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
 
-    #submit_image{
-      max-width: 50%;
-      align-items: center;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 25px;
-      height: 650px;
-    }
+  .videos-iframe {
+    aspect-ratio: 16/9;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+  }
 
+  #submit_image {
+    max-width: 50%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    height: 650px;
+  }
 }
