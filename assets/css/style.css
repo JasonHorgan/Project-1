@@ -497,8 +497,8 @@ padding-top: 120px;
 
   .videos-iframe {
     aspect-ratio: 16/9;
-    height: 300px;
-    width: 600px;
+    height: 250px;
+    width: 400px;
     border-radius: 10px;
   }
 
@@ -516,5 +516,32 @@ padding-top: 120px;
 	margin-right: auto;
 	padding-top: 50px;
 }
+
+}
+
+/* Media Queries for XL screens */
+
+@media screen and (min-width: 1800px) {
+  #menu a:hover {
+    border-bottom: 1px solid #FFFAE0;
+  }
+
+    /* Video page */
+
+    #videos {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:30px;
+    }
+  
+    .videos-iframe {
+      aspect-ratio: 16/9;
+      height: 400px;
+      width: 600px;
+      border-radius: 10px;
+    }
 
 }
