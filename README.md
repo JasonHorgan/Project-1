@@ -170,11 +170,33 @@ The following issues were raised during my mid project meeting with my mentor:
 
 I used W3C validator to validate all HTML and CSS code. There was info messages as seen in the screenshots, but no errors are present. 
 
-- Index Page HTML <img src="/assets/css/images/index_w3_validate.png">
-- Gallery Page HTML  <img src="/assets/css/images/gallery_w3_validate.png">
-- Video Page HTML <img src="/assets/css/images/video_w3_validate.png">
-- Submit Page HTML <img src="/assets/css/images/submit_w3_validate.png">
-- style.css CSS <img src="/assets/css/images/style_css_validate.png">
+- Index Page HTML <img src="/assets/images/index_w3_validate.png">
+- Gallery Page HTML  <img src="/assets/images/gallery_w3_validate.png">
+- Video Page HTML <img src="/assets/images/videos_w3_validate.png">
+- Submit Page HTML <img src="/assets/images/submit_w3_validate.png">
+- style.css CSS <img src="/assets/images/style_css_validate.png">
+
+### Solved Bugs 
+
+- I had a bug when I initially had the videos and photographs in the Gallery page where the sizing of the photos was affected by the videos being in the same div. After some testing, I decided that I would make a new page for videos as this allowed me to style them easier and also allowed for a better user experience when someone is navigating the site. 
+
+- I had a bug where there was overflow on the videos page on mobile screens because the width of the videos was larger than a phone screen. I was able to correct this with the width settings in css. 
+
+I also encountered a bug, after I corrected my file directory to place the image folder outside the css folder, where my hero image would not load on my deployed site. I fixed this by placing a link to my github repo as the image url.  
+
+### Known bugs
+
+- Currently, the top of my hero image is being cut off on X-large screen sizes and I do not have time to fix this before the submission deadline. 
+
+### Lighthouse Testing 
+
+I used the lighthouse function in chrome developer tools to test the performance, accessibility, Best practices and SEO of my site. 
+Accessibility, Best practises and SEO all mostly scored 100, or very close to it, however the performance sometimes suffers on a couple of the pages, as demonstrated in the below screenshots. 
+
+- Index mobile and desktop results <img src="/assets/images/index_desktop_lighthouse.png "> <img src="/assets/images/index_mobile_lighthouse.png">
+- Gallery mobile and desktop results <img src="/assets/images/gallery_desktop_lighthouse.png" > <img src="/assets/images/gallery_mobile_lighthouse_80.png" >
+- Video mobile and desktop results <img src="/assets/images/video_desktop_lighthouse.png" > <img src="/assets/images/video_mobile_lighthouse_84.png">
+- Submit mobile and desktop results <img src="/assets/images/submit_desktop_lighthouse.png"> <img src="/assets/images/submit_mobile_lighthouse.png">
 
 
 
