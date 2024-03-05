@@ -264,6 +264,18 @@ h4 {
   color: #8C3926;
 }
 
+/* 404 styling */
+
+#error_title{
+  font-family: "Merriweather", sans-serif;
+  letter-spacing: 1.5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #400808;
+  padding-top: 20px;
+}
+
+
 /* Media query tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
