@@ -3,7 +3,7 @@
 
 The Phil Lynott archive is a fully responsive site for people to read and submit stories about Phil's life. 
 
-<img src="/assets/css/images/amiresponsive.png">
+<img src="/assets/images/amiresponsive.png">
 
 [You can view my website here](https://jasonhorgan.github.io/Project-1/)
 
