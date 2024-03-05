@@ -56,12 +56,12 @@ For my first project Portfolio I have created an online Archive highlighting the
 
 ### Color Scheme 
 
-<img src="/assets/css/images/phil_color_scheme.jpeg"/>
+<img src="/assets/images/phil_color_scheme.jpeg"/>
 
 
 The Website uses a Color Palette of colors extracted from the hero image which I got from Adobe Color, as seen below. This helped the website maintain consistency throughout. 
 
-<img src="/assets/css/images/adobe_color.png">
+<img src="/assets/images/adobe_color.png">
 
 ### Typography
 
