@@ -191,11 +191,12 @@ p {
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  padding-top: 15px;
+  padding: 12px;
+  
 }
 
 .videos-iframe {
-  margin-bottom:5px;
+  margin-top:20px;
 }
 
 /* Submit page styles */
@@ -487,14 +488,18 @@ padding-top: 120px;
 
   #videos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
-    padding:50px 450px;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
   }
 
   .videos-iframe {
     aspect-ratio: 16/9;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
   }
 
   /* submit page */
