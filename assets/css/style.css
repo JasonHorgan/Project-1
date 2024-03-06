@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-/* General Style rules */
+/* General Style rules - some code referenced from love running tutorial  */
 
 body {
   min-height: 100vh;
@@ -35,7 +35,7 @@ h3 {
 }
 /* General project styles */
 
-/* Header */
+/* Header - some code referenced from love running tutorial  */
 
 header {
   background-color: #400808;
@@ -70,7 +70,7 @@ header a {
   border-bottom: 1px solid white;
 }
 
-/* Nav bar styles with drop down toggle */
+/* Nav bar styles with drop down toggle - some code referenced from love running tutorial  */
 
 nav {
   position: absolute;
@@ -83,7 +83,7 @@ nav {
   top: 100%;
 }
 
-/* Nav Toggle */
+/* Nav Toggle - some code referenced from love running tutorial  */
 #nav-toggle:checked ~ nav {
   display: block;
 }
@@ -96,7 +96,7 @@ nav {
   font-size: 2rem;
 }
 
-/* Main Content */
+/* Main Content - some code referenced from love running tutorial  */
 
 main {
   background-color: #fffae0;
@@ -151,7 +151,7 @@ p {
   padding-top: 20px;
 }
 
-/* Hero Image */
+/* Hero Image - some code referenced from love running tutorial and other Youtube videos mentioned in readme */
 
 #hero {
   height: 600px;
@@ -186,7 +186,7 @@ p {
   line-height: 0;
 }
 
-/* Videos page */
+/* Videos page - some code referenced from youtube video as outlined in readme */
 
 #videos {
   display: flex;
@@ -200,7 +200,7 @@ p {
   margin-top: 20px;
 }
 
-/* Submit page styles */
+/* Submit page styles - code referenced from w3 schools */
 
 #story {
   padding: 30px;
@@ -248,7 +248,7 @@ h4 {
   padding-top: 20px;
 }
 
-/* Footer */
+/* Footer - some code referenced from love running tutorial  */
 
 #social-networks {
   background-color: #fffae0;
@@ -277,7 +277,7 @@ h4 {
   text-align: center;
 }
 
-/* Media query tablets and larger (768px and up) */
+/* Media query tablets and larger (768px and up) - some code referenced from love running tutorial  */
 
 @media screen and (min-width: 768px) {
   /* Header */
@@ -353,7 +353,7 @@ h4 {
     align-items: center;
   }
 
-  /* Hero */
+  /* Hero - some code referenced from love running tutorial and other youtube tutorial mentioned in readme */
 
   #hero-text {
     max-width: 100%;
@@ -391,7 +391,7 @@ h4 {
     aspect-ratio: 16/9;
   }
 
-  /* submit page */
+  /* submit page some code referenced from w3 schools */
 
   #story {
     padding-top: 30px;
@@ -412,7 +412,7 @@ h4 {
     padding-top: 300px;
   }
 }
-/* Large devices (laptops and desktops 992px and up) */
+/* Large devices (laptops and desktops 992px and up) - some code referenced from love running tutorial  */
 
 @media screen and (min-width: 992px) {
   #menu a:hover {
@@ -499,7 +499,7 @@ h4 {
     margin: 100px;
   }
 
-  /* Video page */
+  /* Video page - some code referenced from youtube video as mentioned in readme */
 
   #videos {
     display: flex;
@@ -517,7 +517,7 @@ h4 {
     border-radius: 10px;
   }
 
-  /* submit page */
+  /* submit page - referenced from w3 school */
 
   #story {
     padding: 30px 50px;
