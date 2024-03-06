@@ -7,10 +7,6 @@ The Phil Lynott archive is a fully responsive site for people to read and submit
 
 [You can view my website here](https://jasonhorgan.github.io/Project-1/)
 
-** Shields.io badging here ** 
-
-
-
 # User Experience (UX)
 
 ### Initial Discussion
@@ -157,7 +153,7 @@ Google Developer Tools - to assist with styling all of the pages on each device 
 
 [Favicon.io](https://favicon.io/) To create favicon.
 
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on different size devices.
 
 ## Deployment & Local Development
 
@@ -248,6 +244,7 @@ I referenced multiple different resources as outlined below:
 - Examples on how to write a readme, shared with me by my mentor Graeme, - https://github.com/kera-cudmore/readme-examples/blob/main/README.md and https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md 
 - Graeme for explaining how to add my own thank you html file in place of the Code Institutes form dump page. 
 - Stack overflow forums for helping me when I was stuck on specific problems - https://stackoverflow.com/
+- This YouTube video to help me understand how to style the YouTube videos on the video page - https://www.youtube.com/watch?v=jSVy-6kQDxY 
 
 ### Acknowledgments
 
