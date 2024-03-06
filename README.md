@@ -129,9 +129,7 @@ In the future I would like to implement the ability for users to upload photos a
 
 ### Accessibility
 
-I have attempted to make the site as user friendly as possible by 
-
-using alt text to describe images, ensuring the text is readable by placing it over contrasting color backgrounds, as seen in the hero image on the home page. 
+I have attempted to make the site as user friendly as possible by using alt text to describe images, ensuring the text is readable by placing it over contrasting color backgrounds, as seen in the hero image on the home page. 
 
 ## Technologies Used
 
@@ -203,9 +201,6 @@ I used W3C validator to validate all HTML and CSS code. There was info messages 
 
 I also encountered a bug, after I corrected my file directory to place the image folder outside the css folder, where my hero image would not load on my deployed site. I fixed this by placing a link to my github repo as the image url.  
 
-### Known bugs
-
-- Currently, the top of my hero image is being cut off on X-large screen sizes and I do not have time to fix this before the submission deadline. 
 
 ### Lighthouse Testing 
 
