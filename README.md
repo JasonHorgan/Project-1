@@ -238,4 +238,20 @@ Please see full list of photo credits below:
 - phil_hero - https://www.theguardian.com/music/2012/sep/18/thin-lizzy-phil-lynott-interview
 - phil_hotpress - https://www.telegraph.co.uk/music/artists/phil-lynott-addiction-destroyed-irelands-forgotten-rock-genius/
 
+### Code Credits
+
+I referenced multiple different resources as outlined below:
+
+- Code Institute's "Love Running" walkthrough for Header, Nav bar, Footer, favicon and media query set ups. 
+- This youtube video to help guide me through making a fixed hero image https://www.youtube.com/watch?v=0mYbVEBsMh8&t=15s
+- W3 schools to help me understand a lot of fundamentals but specially the form element - https://www.w3schools.com/html/html_form_elements.asp
+- Examples on how to write a readme, shared with me by my mentor Graeme, - https://github.com/kera-cudmore/readme-examples/blob/main/README.md and https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md 
+- Graeme for explaining how to add my own thank you html file in place of the Code Institutes form dump page. 
+- Stack overflow forums for helping me when I was stuck on specific problems - https://stackoverflow.com/
+
+### Acknowledgments
+
+My mentor Graeme for supporting me through the entire process and ensuring I was equipped with the right tools to overcome any issues during the project. 
+The Code Institute slack community for being engaging and helpful when needed. 
+Tutoring service for being on hand and keeping me on the right track when needed. 
 
