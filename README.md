@@ -220,5 +220,22 @@ Accessibility, Best practises and SEO all mostly scored 100, or very close to it
 - Video mobile and desktop results <img src="/assets/images/video_desktop_lighthouse.png" > <img src="/assets/images/video_mobile_lighthouse_84.png">
 - Submit mobile and desktop results <img src="/assets/images/submit_desktop_lighthouse.png"> <img src="/assets/images/submit_mobile_lighthouse.png">
 
+## Credits 
+
+### Photo credits 
+
+Please see full list of photo credits below:
+
+- Phil_bar - https://www.rte.ie/archives/2016/0518/789174-old-town/
+- Phil_bass - https://www.notreble.com/buzz/2015/05/01/bass-players-to-know-phil-lynott/
+- Phil_bassbw - https://rockandrollparadise.com/phil-lynott-11986/
+- phil_bw - https://www.bathroomwall.com/blogs/rock_blog/thin-lizzy-the-career-of-phil-lynott
+- phil_bw2 - https://blackplaqueproject.com/biography/phil-lynott/
+- phil_bw3 - https://denis.uk/artworks/categories/10/9550-thin-lizzy-phil-lynott-live-1977/
+- phil_diner - https://www.chalkiedavies.com/blog/wnxarkyts2xeshnb2k5hfzsxnw3y3y
+- phil_dogs - https://www.reddit.com/r/ireland/comments/lw0dw7/phil_lynott_in_response_to_the_list_doing_the/
+- phil_guinness - https://imgur.com/gallery/xtTL62b
+- phil_hero - https://www.theguardian.com/music/2012/sep/18/thin-lizzy-phil-lynott-interview
+- phil_hotpress - https://www.telegraph.co.uk/music/artists/phil-lynott-addiction-destroyed-irelands-forgotten-rock-genius/
 
 
